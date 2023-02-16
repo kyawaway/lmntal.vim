@@ -38,7 +38,7 @@ hi def link lmntalRuleName Statement
 
 " Typedef 
 syn match lmntalTypedef "typedef" 
-hi def link lmntalRuleName Typedef
+hi def link lmntalTypedef Typedef
 
 
 let b:current_syntax="lmntal"
