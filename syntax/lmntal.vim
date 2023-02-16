@@ -36,4 +36,9 @@ syn match lmntalRuleName "[a-z]\w*@@"
 hi def link lmntalRuleName Statement
 
 
+" Typedef 
+syn match lmntalTypedef "typedef" 
+hi def link lmntalRuleName Typedef
+
+
 let b:current_syntax="lmntal"
